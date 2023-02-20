@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component  } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
+
+  imageUrl : string = 'assets/Logo/Ussu-Dev-Logo.png';
+  
+  constructor() {
+    
+  }
 
 }

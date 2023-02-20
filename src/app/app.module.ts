@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -8,6 +8,9 @@ import { AboutComponent } from './Page/about/about.component';
 import { ContactComponent } from './Page/contact/contact.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BannerComponent } from './components/banner/banner.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     MenuComponent,
     AboutComponent,
     ContactComponent,
-    NavbarComponent
+    NavbarComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
